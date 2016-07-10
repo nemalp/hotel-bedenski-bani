@@ -1,1 +1,1 @@
-# hotel-bedenski-bani
+# hotel-bedenski-bani.

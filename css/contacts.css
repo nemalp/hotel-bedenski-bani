@@ -1,0 +1,435 @@
+
+    a:focus {
+    outline: thin dotted; }
+
+    /**
+     *  * Improve readability when focused and also mouse hovered in all browsers.
+     *   */
+    a:active,
+    a:hover {
+    outline: 0; }
+
+    /**
+     *  * Improve readability of pre-formatted text in all browsers.
+     *   */
+    pre {
+    white-space: pre-wrap; }
+
+
+
+    a {
+        text-decoration: none;
+    color: #8f7d4c; }
+    a:visited {
+    color: #8f7d4c; }
+    a:hover {
+    color: #8f7d4c; }
+    a:focus {
+        outline: thin dotted;
+    color: #8f7d4c; }
+    a:hover, a:active {
+    outline: 0; }
+
+    /*
+     *  * IMAGES
+     *   *
+     *    */
+    img {
+        display: block;
+        max-width: 100%;
+        border-width: 0;
+        vertical-align: middle;
+    -ms-interpolation-mode: bicubic; }
+
+    .contacts {
+        background: url('../img/bg_wood.jpg');
+    }
+
+    /* FOLDER */
+    .contacts-container {
+        width: 33%;
+        height: 700px;
+        max-width: 370px;
+        margin: 0 auto 40px auto;
+        margin-top: 40px;
+        position: relative;
+        color: black;
+        -webkit-perspective: 1600px;
+        -moz-perspective: 1600px;
+        -o-perspective: 1600px;
+        -ms-perspective: 1600px;
+    perspective: 1600px; }
+
+    .contacts-wrapper,
+    .contacts-wrapper > div {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
+        text-align: center;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        -o-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d; }
+
+    .contacts-wrapper .contacts-cover {
+        z-index: 100;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -ms-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transition-delay: 0.2s;
+        -moz-transition-delay: 0.2s;
+        -ms-transition-delay: 0.2s;
+        -o-transition-delay: 0.2s;
+    transition-delay: 0.2s; }
+
+    .contacts-wrapper .contacts-middle {
+        z-index: 50;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); }
+
+    .contacts-wrapper .contacts-right {
+        z-index: 60;
+        -webkit-transform-origin: right center;
+        -moz-transform-origin: right center;
+        -ms-transform-origin: right center;
+        -o-transform-origin: right center;
+        transform-origin: right center;
+        -webkit-transition-delay: 0s;
+        -moz-transition-delay: 0s;
+        -ms-transition-delay: 0s;
+        -o-transition-delay: 0s;
+    transition-delay: 0s; }
+
+    .contacts-wrapper > div > div {
+        background: #fff url(../images/menu/white_paperboard.jpg);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        padding: 30px;
+        max-width: 370px;
+        box-shadow: inset 0 0 0 15px #f7f7f7, inset 0 0 0 20px #000;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+    box-sizing: border-box; }
+
+    .contacts-wrapper > div > div.contacts-front {
+        color: #8f7d4c;
+        background: #000;
+        box-shadow: inset 0 0 0 16px #000, inset 0 0 0 22px #262626;
+    cursor: pointer; }
+    .contacts-wrapper > div > div.contacts-front h2 {
+    margin-top: 8em; }
+    .contacts-wrapper > div > div.contacts-front p {
+        margin-top: 160px;
+        padding-top: 40px;
+        background: transparent url(../images/trefle.png) no-repeat center top;
+        font-size: .8em;
+    line-height: 1.5; }
+
+    .contacts-container .contacts-front,
+    .contacts-container .contacts-back {
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        -o-backface-visibility: hidden;
+    backface-visibility: hidden; }
+
+    .contacts-container .contacts-back {
+        -webkit-transform: rotateY(-180deg);
+        -moz-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+        -o-transform: rotateY(-180deg);
+    transform: rotateY(-180deg); }
+
+    .contacts-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        background: -moz-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.05) 100%);
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.05)));
+        background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.05) 100%);
+        background: -o-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.05) 100%);
+        background: -ms-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.05) 100%);
+    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.05) 100%); }
+
+    .contacts-middle .contacts-overlay {
+        background: -moz-linear-gradient(left, transparent 64%, rgba(0, 0, 0, 0.05) 100%);
+        background: -webkit-gradient(linear, left top, right top, color-stop(64%, transparent), color-stop(100%, rgba(0, 0, 0, 0.05)));
+        background: -webkit-linear-gradient(left, transparent 64%, rgba(0, 0, 0, 0.05) 100%);
+        background: -o-linear-gradient(left, transparent 64%, rgba(0, 0, 0, 0.05) 100%);
+        background: -ms-linear-gradient(left, transparent 64%, rgba(0, 0, 0, 0.05) 100%);
+    background: linear-gradient(to right, transparent 64%, rgba(0, 0, 0, 0.05) 100%); }
+
+    .contacts-content {
+    padding: 20px; }
+
+    .contacts-content h2 {
+        font-family: "Proxima Nova", Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 1em;
+        letter-spacing: 1px;
+        font-weight: 600;
+    letter-spacing: 1px; }
+
+    .contacts-front .contacts-content h2 {
+    font-size: 26px; }
+
+    a.contacts-button-open {
+        font-family: "Proxima Nova", Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #8f7d4c;
+        margin: .5em auto;
+    display: block; }
+
+    a.contacts-button-open:hover {
+    color: #8f7d4c; }
+
+    .contacts-inner .contacts-content p {
+        //margin-top: 130px;
+        //padding-top: 40px;
+        background: transparent url(../images/trefle-noir.png) no-repeat center top;
+        //font-size: .8em;
+        line-height: 1.5; }
+
+    .contacts-close {
+        display: block;
+        position: absolute;
+        padding: 6px 10px;
+        top: -23px;
+        right: 0;
+        -webkit-opacity: 0;
+        -moz-opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 0 ")";
+        opacity: 0;
+        background: #000;
+        color: #8f7d4c;
+        cursor: pointer;
+        font-family: "Proxima Nova", Arial, sans-serif;
+        letter-spacing: 1px;
+        line-height: 1em;
+        text-transform: uppercase;
+        font-size: .7em;
+    font-weight: 600; }
+
+    /* Transitions */
+    .contacts-wrapper,
+    .contacts-wrapper > div {
+        -webkit-transition: all 0.6s ease-in-out, height 0s;
+        -moz-transition: all 0.6s ease-in-out;
+        -o-transition: all 0.6s ease-in-out, height 0s;
+        -ms-transition: all 0.6s ease-in-out, height 0s;
+    transition: all 0.6s ease-in-out, height 0s; }
+
+    .contacts-close {
+        -webkit-transition: all 0.1s ease-in-out 0s;
+        -moz-transition: all 0.1s ease-in-out 0s;
+        -o-transition: all 0.1s ease-in-out 0s;
+        -ms-transition: all 0.1s ease-in-out 0s;
+    transition: all 0.1s ease-in-out 0s; }
+
+    .contacts-container.contacts-open .contacts-close {
+        -webkit-transition: all 0.3s ease-in-out 0.8s;
+        -moz-transition: all 0.3s ease-in-out 0.8s;
+        -o-transition: all 0.3s ease-in-out 0.8s;
+        -ms-transition: all 0.3s ease-in-out 0.8s;
+        transition: all 0.3s ease-in-out 0.8s;
+        -webkit-opacity: 1;
+        -moz-opacity: 1;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 100 ")";
+    opacity: 1; }
+
+    .contacts-container.contacts-open .contacts-wrapper > div {
+    box-shadow: 0 4px 5px -3px rgba(0, 0, 0, 0.6); }
+
+    .contacts-container.contacts-open .contacts-cover {
+        -webkit-transform: rotateY(-180deg);
+        -moz-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+        -o-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+        -webkit-transition-delay: 0s;
+        -moz-transition-delay: 0s;
+        -ms-transition-delay: 0s;
+        -o-transition-delay: 0s;
+    transition-delay: 0s; }
+
+    .contacts-container.contacts-open .contacts-right {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        -webkit-transition-delay: 0.2s;
+        -moz-transition-delay: 0.2s;
+        -ms-transition-delay: 0.2s;
+        -o-transition-delay: 0.2s;
+    transition-delay: 0.2s; }
+
+    .contacts-container.contacts-in .contacts-cover {
+        -webkit-transform: rotateY(-150deg);
+        -moz-transform: rotateY(-150deg);
+        -ms-transform: rotateY(-150deg);
+        -o-transform: rotateY(-150deg);
+    transform: rotateY(-150deg); }
+
+    .contacts-container.contacts-in .contacts-right {
+        -webkit-transform: rotateY(150deg);
+        -moz-transform: rotateY(150deg);
+        -ms-transform: rotateY(150deg);
+        -o-transform: rotateY(150deg);
+    transform: rotateY(150deg); }
+
+    .contacts-container.contacts-in .contacts-wrapper {
+        -webkit-transform: translate(-500px);
+        -moz-transform: translate(-500px);
+        -ms-transform: translate(-500px);
+        -o-transform: translate(-500px);
+    transform: translate(-500px); }
+
+    .contacts-container.contacts-in .contacts-cover,
+    .contacts-container.contacts-in .contacts-right,
+    .contacts-container.contacts-nodelay .contacts-right {
+        -webkit-transition-delay: 0s;
+        -moz-transition-delay: 0s;
+        -ms-transition-delay: 0s;
+        -o-transition-delay: 0s;
+    transition-delay: 0s; }
+
+    /* Fallback (similar to last media query) */
+    .no-csstransforms3d .contacts-container {
+        width: 100%;
+        height: auto;
+        max-width: 370px;
+        height: auto;
+    margin: 0 auto; }
+
+    .no-csstransforms3d .contacts-wrapper,
+    .no-csstransforms3d .contacts-wrapper > div,
+    .no-csstransforms3d .contacts-wrapper > div > div {
+        position: relative;
+        width: 100%;
+    height: auto; }
+
+    .no-csstransforms3d .contacts-wrapper > div > div {
+        margin-bottom: 10px;
+    box-shadow: inset 0 0 0 16px #f7f7f7, inset 0 0 0 22px #000; }
+
+    .no-csstransforms3d .contacts-container .contacts-back {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+    transform: rotateY(0deg); }
+
+    .no-csstransforms3D .contacts-cover .contacts-front {
+    display: none; }
+
+    .no-csstransforms3d .contacts-overlay,
+    .no-csstransforms3d .contacts-middle .contacts-overlay {
+    display: none; }
+
+    .no-csstransforms3d .contacts-cover .contacts-front,
+    .no-csstransforms3d .contacts-right .contacts-front {
+    display: none; }
+
+    .no-csstransforms3d .contacts-button-open {
+    pointer-events: none; }
+
+    .no-csstransforms3d .contacts-button-open:after {
+    content: '\2193'; }
+
+    .no-csstransforms3d .contacts-container.contacts-in .contacts-cover,
+    .no-csstransforms3d .contacts-container.contacts-in .contacts-right,
+    .no-csstransforms3d .contacts-container.contacts-in .contacts-wrapper {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+        -webkit-transition-delay: 0s;
+        -moz-transition-delay: 0s;
+        -ms-transition-delay: 0s;
+        -o-transition-delay: 0s;
+    transition-delay: 0s; }
+
+    @media screen and (max-width: 960px) {
+        .contacts-container {
+            width: 100%;
+            max-width: 370px;
+            height: auto;
+            margin: 0 auto;
+            -webkit-perspective: 0px;
+            -moz-perspective: 0px;
+            -o-perspective: 0px;
+            -ms-perspective: 0px;
+        perspective: 0px; }
+
+        .contacts-wrapper,
+        .contacts-wrapper > div,
+        .contacts-wrapper > div > div {
+            position: relative;
+            width: 100%;
+        height: auto; }
+
+        .contacts-cover .contacts-front {
+        display: none; }
+
+        .contacts-wrapper > div > div {
+            margin-bottom: 10px;
+        box-shadow: inset 0 0 0 16px #f7f7f7, inset 0 0 0 22px #000; }
+
+        .contacts-container .contacts-back,
+        .contacts-container.contacts-open .contacts-cover,
+        .contacts-container.contacts-open .contacts-right {
+            -webkit-transform: rotateY(0deg);
+            -moz-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            -o-transform: rotateY(0deg);
+        transform: rotateY(0deg); }
+
+        .contacts-overlay, .contacts-middle .contacts-overlay {
+        background: transparent; }
+
+        .contacts-right .contacts-front,
+        .contacts-close {
+        display: none; }
+
+        .contacts-button-open {
+        pointer-events: none; }
+
+        .contacts-button-open:after {
+        content: '\2193'; }
+
+        .contacts-container.contacts-in .contacts-cover,
+        .contacts-container.contacts-in .contacts-right,
+        .contacts-container.contacts-in .contacts-wrapper {
+            -webkit-transform: rotateY(0deg);
+            -moz-transform: rotateY(0deg);
+            -ms-transform: rotateY(0deg);
+            -o-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+            -webkit-transition-delay: 0s;
+            -moz-transition-delay: 0s;
+            -ms-transition-delay: 0s;
+            -o-transition-delay: 0s;
+    transition-delay: 0s; } }
+    @-webkit-viewport {
+    width: device-width; }
+    @-moz-viewport {
+    width: device-width; }
+    @-ms-viewport {
+    width: device-width; }
+    @-o-viewport {
+    width: device-width; }
+    @viewport {
+    width: device-width; }

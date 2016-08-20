@@ -1,0 +1,408 @@
+body {
+  /**
+   *  * Improve readability when focused and also mouse hovered in all browsers.
+   *   */
+  /**
+   *  * Improve readability of pre-formatted text in all browsers.
+   *   */
+  /* RESTAURANT */
+  /* CONTACTS */ }
+  body .under-construction {
+    height: 100vh;
+    background: url("../img/UnderConstruct.jpg") 600px 100px no-repeat; }
+  body a {
+    text-decoration: none !important; }
+  body a:active,
+  body a:hover {
+    outline: 0; }
+  body pre {
+    white-space: pre-wrap; }
+  body a {
+    text-decoration: none;
+    color: #8f7d4c; }
+    body a:visited {
+      color: #82a62b; }
+    body a:hover {
+      color: #8f7d4c; }
+    body a:focus {
+      color: #8f7d4c; }
+  body img {
+    display: block;
+    max-width: 100%;
+    border-width: 0;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic; }
+  body hgroup {
+    color: #8f7d4c; }
+  body header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dedede+0,fefefe+50,dedede+100 */
+    background: #dedede;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #dedede 0%, #fefefe 50%, #dedede 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #dedede 0%, #fefefe 50%, #dedede 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #dedede 0%, #fefefe 50%, #dedede 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', endColorstr='#dedede',GradientType=1 );
+    /* IE6-9 */ }
+    body header .logo {
+      margin: 40px 0 40px 0; }
+      body header .logo h1 {
+        margin: 0;
+        max-width: 250px;
+        font-size: 28px; }
+      body header .logo a {
+        color: black; }
+        body header .logo a .sub-title {
+          font-size: 0.7em;
+          font-style: italic; }
+    body header .contact-details {
+      margin: 40px 0 40px 0;
+      text-align: right;
+      font-family: 'MelbourneBold', Arial, sans-serif; }
+      body header .contact-details .view-on-map, body header .contact-details .phone {
+        padding-right: 20px;
+        color: #82a62b; }
+      body header .contact-details .view-on-map {
+        background: url("../img/icon_map_point.png") right 0 no-repeat; }
+      body header .contact-details .phone {
+        background: url("../img/icon_phone.png") right 0 no-repeat; }
+    body header .navbar {
+      border-radius: 0;
+      margin-bottom: 0; }
+      body header .navbar .navbar-collapse {
+        padding-left: 0; }
+  body .carousel {
+    padding-top: 30px;
+    background: url("../img/header_image_bg.gif"); }
+  body .restaurant {
+    background: url("../img/IMG_0478.JPG");
+    background-size: cover; }
+    body .restaurant .restaurant-info {
+      margin: 60px 20px;
+      padding: 20px;
+      background: #FEFEFE;
+      border-radius: 3px;
+      opacity: 0.8;
+      color: #000; }
+  body .contacts {
+    background: url("../img/header_image_bg.gif"); }
+    body .contacts a.contacts-button-open {
+      font-family: "Proxima Nova", Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px;
+      color: #8f7d4c;
+      margin: .5em auto;
+      display: block; }
+      body .contacts a.contacts-button-open:hover {
+        color: #8f7d4c; }
+    body .contacts .contacts-close {
+      display: block;
+      position: absolute;
+      padding: 6px 10px;
+      top: -23px;
+      right: 0;
+      -webkit-opacity: 0;
+      -moz-opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 0 ")";
+      opacity: 0;
+      background: #000;
+      color: #8f7d4c;
+      cursor: pointer;
+      font-family: "Proxima Nova", Arial, sans-serif;
+      letter-spacing: 1px;
+      line-height: 1em;
+      text-transform: uppercase;
+      font-size: .7em;
+      font-weight: 600;
+      -webkit-transition: all 0.1s ease-in-out 0s;
+      -moz-transition: all 0.1s ease-in-out 0s;
+      -o-transition: all 0.1s ease-in-out 0s;
+      -ms-transition: all 0.1s ease-in-out 0s;
+      transition: all 0.1s ease-in-out 0s; }
+    body .contacts .contacts-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      background: -moz-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.05) 100%);
+      background: -webkit-gradient(linear, left top, right top, color-stop(0%, transparent), color-stop(100%, rgba(0, 0, 0, 0.05)));
+      background: -webkit-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.05) 100%);
+      background: -o-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.05) 100%);
+      background: -ms-linear-gradient(left, transparent 0%, rgba(0, 0, 0, 0.05) 100%);
+      background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.05) 100%); }
+    body .contacts .contacts-content {
+      padding: 20px; }
+      body .contacts .contacts-content h2 {
+        font-family: "Proxima Nova", Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 1em;
+        letter-spacing: 1px;
+        font-weight: 600;
+        letter-spacing: 1px; }
+    body .contacts .contacts-container {
+      width: 33%;
+      height: 700px;
+      max-width: 370px;
+      margin: 0 auto 40px auto;
+      margin-top: 40px;
+      position: relative;
+      color: black;
+      -webkit-perspective: 1600px;
+      -moz-perspective: 1600px;
+      -o-perspective: 1600px;
+      -ms-perspective: 1600px;
+      perspective: 1600px; }
+      body .contacts .contacts-container .contacts-wrapper,
+      body .contacts .contacts-container .contacts-wrapper > div {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
+        text-align: center;
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        -o-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transition: all 0.6s ease-in-out, height 0s;
+        -moz-transition: all 0.6s ease-in-out;
+        -o-transition: all 0.6s ease-in-out, height 0s;
+        -ms-transition: all 0.6s ease-in-out, height 0s;
+        transition: all 0.6s ease-in-out, height 0s; }
+      body .contacts .contacts-container .contacts-wrapper > div > div {
+        background: #fff url(../images/menu/white_paperboard.jpg);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        padding: 30px;
+        max-width: 370px;
+        box-shadow: inset 0 0 0 15px #f7f7f7, inset 0 0 0 20px #000;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box; }
+      body .contacts .contacts-container .contacts-wrapper > div > div.contacts-front {
+        color: #8f7d4c;
+        background: #000;
+        box-shadow: inset 0 0 0 16px #000, inset 0 0 0 22px #262626;
+        cursor: pointer; }
+        body .contacts .contacts-container .contacts-wrapper > div > div.contacts-front h2 {
+          margin-top: 8px; }
+        body .contacts .contacts-container .contacts-wrapper > div > div.contacts-front p {
+          margin-top: 160px;
+          padding-top: 40px;
+          background: transparent url(../images/trefle.png) no-repeat center top;
+          font-size: .8em;
+          line-height: 1.5; }
+      body .contacts .contacts-container .contacts-wrapper .contacts-cover {
+        z-index: 100;
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -ms-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transition-delay: 0.2s;
+        -moz-transition-delay: 0.2s;
+        -ms-transition-delay: 0.2s;
+        -o-transition-delay: 0.2s;
+        transition-delay: 0.2s; }
+      body .contacts .contacts-container .contacts-wrapper .contacts-middle {
+        z-index: 50;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); }
+        body .contacts .contacts-container .contacts-wrapper .contacts-middle .contacts-overlay {
+          background: -moz-linear-gradient(left, transparent 64%, rgba(0, 0, 0, 0.05) 100%);
+          background: -webkit-gradient(linear, left top, right top, color-stop(64%, transparent), color-stop(100%, rgba(0, 0, 0, 0.05)));
+          background: -webkit-linear-gradient(left, transparent 64%, rgba(0, 0, 0, 0.05) 100%);
+          background: -o-linear-gradient(left, transparent 64%, rgba(0, 0, 0, 0.05) 100%);
+          background: -ms-linear-gradient(left, transparent 64%, rgba(0, 0, 0, 0.05) 100%);
+          background: linear-gradient(to right, transparent 64%, rgba(0, 0, 0, 0.05) 100%); }
+          body .contacts .contacts-container .contacts-wrapper .contacts-middle .contacts-overlay .contacts-inner .contacts-content p {
+            background: transparent url(../images/trefle-noir.png) no-repeat center top;
+            line-height: 1.5; }
+      body .contacts .contacts-container .contacts-wrapper .contacts-right {
+        z-index: 60;
+        -webkit-transform-origin: right center;
+        -moz-transform-origin: right center;
+        -ms-transform-origin: right center;
+        -o-transform-origin: right center;
+        transform-origin: right center;
+        -webkit-transition-delay: 0s;
+        -moz-transition-delay: 0s;
+        -ms-transition-delay: 0s;
+        -o-transition-delay: 0s;
+        transition-delay: 0s; }
+      body .contacts .contacts-container .contacts-front {
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        -o-backface-visibility: hidden;
+        backface-visibility: hidden; }
+        body .contacts .contacts-container .contacts-front .contacts-content h2 {
+          font-size: 26px; }
+      body .contacts .contacts-container .contacts-back {
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        -o-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transform: rotateY(-180deg);
+        -moz-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+        -o-transform: rotateY(-180deg);
+        transform: rotateY(-180deg); }
+    body .contacts .contacts-container.contacts-open .contacts-close {
+      -webkit-transition: all 0.3s ease-in-out 0.8s;
+      -moz-transition: all 0.3s ease-in-out 0.8s;
+      -o-transition: all 0.3s ease-in-out 0.8s;
+      -ms-transition: all 0.3s ease-in-out 0.8s;
+      transition: all 0.3s ease-in-out 0.8s;
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" 100 ")";
+      opacity: 1; }
+    body .contacts .contacts-container.contacts-open .contacts--wrapper > div {
+      box-shadow: 0 4px 5px -3px rgba(0, 0, 0, 0.6); }
+    body .contacts .contacts-container.contacts-open .contacts-cover {
+      -webkit-transform: rotateY(-180deg);
+      -moz-transform: rotateY(-180deg);
+      -ms-transform: rotateY(-180deg);
+      -o-transform: rotateY(-180deg);
+      transform: rotateY(-180deg);
+      -webkit-transition-delay: 0s;
+      -moz-transition-delay: 0s;
+      -ms-transition-delay: 0s;
+      -o-transition-delay: 0s;
+      transition-delay: 0s; }
+    body .contacts .contacts-container.contacts-open .contacts-right {
+      -webkit-transform: rotateY(180deg);
+      -moz-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+      -o-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+      -webkit-transition-delay: 0.2s;
+      -moz-transition-delay: 0.2s;
+      -ms-transition-delay: 0.2s;
+      -o-transition-delay: 0.2s;
+      transition-delay: 0.2s; }
+    body .contacts .contacts-container.contacts-in .contacts-cover {
+      -webkit-transform: rotateY(-150deg);
+      -moz-transform: rotateY(-150deg);
+      -ms-transform: rotateY(-150deg);
+      -o-transform: rotateY(-150deg);
+      transform: rotateY(-150deg);
+      -webkit-transition-delay: 0s;
+      -moz-transition-delay: 0s;
+      -ms-transition-delay: 0s;
+      -o-transition-delay: 0s;
+      transition-delay: 0s; }
+    body .contacts .contacts-container.contacts-in .contacts-right {
+      -webkit-transform: rotateY(150deg);
+      -moz-transform: rotateY(150deg);
+      -ms-transform: rotateY(150deg);
+      -o-transform: rotateY(150deg);
+      transform: rotateY(150deg);
+      -webkit-transition-delay: 0s;
+      -moz-transition-delay: 0s;
+      -ms-transition-delay: 0s;
+      -o-transition-delay: 0s;
+      transition-delay: 0s; }
+    body .contacts .contacts-container.contacts-in .contacts-wrapper {
+      -webkit-transform: translate(-500px);
+      -moz-transform: translate(-500px);
+      -ms-transform: translate(-500px);
+      -o-transform: translate(-500px);
+      transform: translate(-500px); }
+    body .contacts .contacts-container.contacts-nodelay .contacts-right {
+      -webkit-transition-delay: 0s;
+      -moz-transition-delay: 0s;
+      -ms-transition-delay: 0s;
+      -o-transition-delay: 0s;
+      transition-delay: 0s; }
+    body .contacts .no-csstransforms3d .contacts-container {
+      width: 100%;
+      height: auto;
+      max-width: 370px;
+      height: auto;
+      margin: 0 auto; }
+    body .contacts .no-csstransforms3d .contacts-wrapper,
+    body .contacts .no-csstransforms3d .contacts-wrapper > div,
+    body .contacts .no-csstransforms3d .contacts-wrapper > div > div {
+      position: relative;
+      width: 100%;
+      height: auto; }
+    body .contacts .no-csstransforms3d .contacts-wrapper > div > div {
+      margin-bottom: 10px;
+      box-shadow: inset 0 0 0 16px #f7f7f7, inset 0 0 0 22px #000; }
+    body .contacts .no-csstransforms3d .contacts-container .contacts-back {
+      -webkit-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      -o-transform: rotateY(0deg);
+      transform: rotateY(0deg); }
+    body .contacts .no-csstransforms3D .contacts-cover .contacts-front {
+      display: none; }
+    body .contacts .no-csstransforms3d .contacts-overlay,
+    body .contacts .no-csstransforms3d .contacts-middle .contacts-overlay {
+      display: none; }
+    body .contacts .no-csstransforms3d .contacts-cover .contacts-front,
+    body .contacts .no-csstransforms3d .contacts-right .contacts-front {
+      display: none; }
+    body .contacts .no-csstransforms3d .contacts-button-open {
+      pointer-events: none; }
+    body .contacts .no-csstransforms3d .contacts-button-open:after {
+      content: '\2193'; }
+    body .contacts .no-csstransforms3d .contacts-container.contacts-in .contacts-cover,
+    body .contacts .no-csstransforms3d .contacts-container.contacts-in .contacts-right,
+    body .contacts .no-csstransforms3d .contacts-container.contacts-in .contacts-wrapper {
+      -webkit-transform: rotateY(0deg);
+      -moz-transform: rotateY(0deg);
+      -ms-transform: rotateY(0deg);
+      -o-transform: rotateY(0deg);
+      transform: rotateY(0deg);
+      -webkit-transition-delay: 0s;
+      -moz-transition-delay: 0s;
+      -ms-transition-delay: 0s;
+      -o-transition-delay: 0s;
+      transition-delay: 0s; }
+  body footer {
+    padding: 40px 0 20px 0;
+    background: #DFDFDF; }
+    body footer a {
+      color: #82a62b;
+      text-decoration: none !important; }
+    body footer p {
+      color: #808080; }
+    body footer .footer-nav {
+      list-style-type: none; }
+      body footer .footer-nav li {
+        display: inline-block; }
+        body footer .footer-nav li:after {
+          content: '/';
+          padding: 7px;
+          color: #82a62b; }
+        body footer .footer-nav li:last-of-type:after {
+          content: '';
+          padding: 0; }
+    body footer .social {
+      text-align: right; }
+      body footer .social p {
+        padding: 0;
+        margin: 0 !important;
+        display: inline-block; }
+      body footer .social a {
+        color: #292929; }
+      body footer .social .social-link {
+        padding-left: 20px;
+        margin-left: 10px; }
+      body footer .social .link-fb {
+        background: url("../img/social_fb.gif") no-repeat; }
+      body footer .social .link-twitter {
+        background: url("../img/social_twitter.gif") no-repeat; }
+
+/*# sourceMappingURL=style.css.map */
